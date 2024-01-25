@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Leave", "Leave", "{12E37C20
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bank", "Bank", "{CC995F4C-2931-4037-904F-8671F604E311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leave.API", "Leave.API\Leave.API.csproj", "{EBA7B1B0-6EE8-45C1-BE9B-200E39696F41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leave.API", "Leave.API\Leave.API.csproj", "{EBA7B1B0-6EE8-45C1-BE9B-200E39696F41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{41B30853-BB94-4B94-B9CC-74266E9CCC01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{EBA7B1B0-6EE8-45C1-BE9B-200E39696F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA7B1B0-6EE8-45C1-BE9B-200E39696F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA7B1B0-6EE8-45C1-BE9B-200E39696F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B30853-BB94-4B94-B9CC-74266E9CCC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B30853-BB94-4B94-B9CC-74266E9CCC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B30853-BB94-4B94-B9CC-74266E9CCC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B30853-BB94-4B94-B9CC-74266E9CCC01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
