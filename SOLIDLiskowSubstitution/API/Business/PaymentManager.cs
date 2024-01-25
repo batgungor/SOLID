@@ -1,4 +1,5 @@
 ﻿using API.Business.PaymentMethods;
+using API.Business.PaymentMethods.Interfaces;
 
 namespace API.Business
 {
@@ -20,7 +21,7 @@ namespace API.Business
         }
 
 
-        public async Task<bool> PayWithInstallmentAsync(BasePaymentMethod paymentMethod)
+        public async Task<bool> PayWithInstallmentAsync(IInstallmentablePaymentMethod paymentMethod)
         {
             //Burada bazı işlemler yapılacak.
             //orderlaştırma süreçleri için gerekli işlemler yapılabilir

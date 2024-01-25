@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Leave", "Leave", "{12E37C20-DA1B-40E7-B9E0-D959FCB06624}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bank", "Bank", "{CC995F4C-2931-4037-904F-8671F604E311}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leave.API", "Leave.API\Leave.API.csproj", "{EBA7B1B0-6EE8-45C1-BE9B-200E39696F41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{AD25359F-23DB-448D-9C76-159A1CB7F533}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,16 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EBA7B1B0-6EE8-45C1-BE9B-200E39696F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBA7B1B0-6EE8-45C1-BE9B-200E39696F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBA7B1B0-6EE8-45C1-BE9B-200E39696F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBA7B1B0-6EE8-45C1-BE9B-200E39696F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD25359F-23DB-448D-9C76-159A1CB7F533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD25359F-23DB-448D-9C76-159A1CB7F533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD25359F-23DB-448D-9C76-159A1CB7F533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD25359F-23DB-448D-9C76-159A1CB7F533}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EBA7B1B0-6EE8-45C1-BE9B-200E39696F41} = {12E37C20-DA1B-40E7-B9E0-D959FCB06624}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEA6570D-EEE8-4016-8567-53FB3B74A4DE}

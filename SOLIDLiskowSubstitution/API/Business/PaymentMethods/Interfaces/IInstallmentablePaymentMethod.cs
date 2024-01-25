@@ -2,5 +2,6 @@
 {
     public interface IInstallmentablePaymentMethod
     {
+        Task<bool> PayWithInstallmentAsync();
     }
 }
